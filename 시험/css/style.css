@@ -1,0 +1,149 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+html,body{ height: 100%;}
+body{font-family: 'Noto Sans KR', sans-serif}
+ul,li{ list-style: none;}
+
+/*상단메뉴*/
+#header{
+  width: 1440px;
+  height: 85px;
+  margin: 0 auto;
+  top: 0;
+  overflow: hidden;
+  padding: 35px 20px;
+  box-sizing: border-box;
+}
+.logoandgnb{
+  float: left;
+  overflow: hidden;
+}
+
+.logo{
+  float: left;
+  margin-right: 20px;
+}
+.gnb_wrap{
+  float: left;
+}
+
+.login{
+  float: right;
+}
+
+.gnb{
+  overflow: hidden;
+}
+
+.gnb li{
+  float: left;
+  margin-left: 40px;
+}
+
+.login ul{
+  overflow: hidden;
+}
+
+.login ul li{
+  float: left;
+  margin-right: 30px;
+}
+/*메인배너*/
+
+#main_banner{
+  min-width: 1387px;
+  height: 800px;
+}
+
+.main_banner .inner{
+  overflow: hidden;
+  position: relative;
+}
+
+.textbox{
+  float: left;
+  position: absolute;
+  left: 400px;
+  top: 400px;
+}
+
+.main_text{
+  position: relative;
+}
+
+.sub_text{
+  margin-top: 100px;
+  color: #444;
+  font-size: 20px;
+}
+
+.main_text p:nth-of-type(1){
+  font-size: 60px;
+  color: #0055b8;
+  font-weight: bold;
+  display: inline-block;
+}
+.main_text p:nth-of-type(2){
+  font-size: 45px;
+  color: #666;
+  display: inline-block;
+  float: right;
+}
+.main_text span{
+  font-size: 150px;
+  color: #008fb8;
+  position: absolute;
+  right: -80px;
+  top:-20px;
+}
+
+.imgbox1{
+  position: absolute;
+  float: left;
+  right: 400px;
+  top: 200px;
+}
+
+.inner .imgbox1 img{
+  height: 600px;
+}
+
+#first .box{
+  overflow: hidden;
+}
+
+#first .box li{
+  float: left;
+  width: calc( 25% - 40px );
+  padding: 0 20px;
+}
+
+.item{
+  border: 1px solid #777;
+  height: 300px;
+}
+
+#second .inner{
+  background: #0055b8;
+}
+
+#second .imgbox{
+  background-image: url('./img1/top.png');
+  background-size: cover;
+}
+
+.inner .imgbox{
+  display: inline-block;
+  float: left;
+  width: 50%;
+  height: 600px;
+    border: 1px solid #777;
+}
+
+.inner. .textbox{
+  display: inline-block;
+  float: left;
+  width: 50%;
+  height: 600px;
+    border: 1px solid #777;
+}
